@@ -21,7 +21,11 @@
                 "input": "public"
               }
             ],
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"],
             "styles": [
+              "src/custom-theme.scss",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ]
           },
@@ -81,5 +85,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "522a403a-ce26-4806-ab3c-385aa08c4254"
   }
 }

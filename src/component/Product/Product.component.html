@@ -1,0 +1,143 @@
+<div class=" container-fluid mt-4">
+  <div class="row g-3">
+    @for ( item of imges;track $index) {
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 ">
+
+  <div class="card cart-product">
+      <img [src]="item" class="card-img-top" alt="will not show">
+  <div class="card-body">
+    <div class="d-flex justify-content-between">
+      <div class="d-flex justify-content-center flex-wrap w-50">
+              <h5 class="card-title">{{title[$index]}}</h5>
+      <p class="font-md">Sale: {{saling[$index]}}</p>
+      </div>
+      <div class="d-flex justify-content-center align-content-center flex-wrap w-25 ">
+          <p class="font-md">{{price[$index]}}</p>
+      @switch ($index) {
+        @case (0) {
+          <div class="custom-h-g mb-2 font-md ">+32.4%</div>
+        }
+        @case (1) {
+          <div class="custom-h-r mb-2 font-md ">-18.3%</div>
+        }
+        @case (2) {
+          <div class="custom-h-r mb-2 font-md ">-16.8%</div>
+        }
+        @case (3) {
+          <div class="custom-h-g mb-2 font-md ">+42.9%</div>
+        }
+        @case (4) {
+          <div class="custom-h-g mb-2 font-md ">+23.6%</div>
+        }
+        @case (5) {
+          <div class="custom-h-r mb-2 font-md ">-12.7%</div>
+        }
+        @case (6) {
+          <div class="custom-h-r mb-2 font-md ">-18.5%</div>
+        }
+        @case (7) {
+          <div class="custom-h-g mb-2 font-md ">+26.4%</div>
+        }
+      }
+      </div>
+    </div>
+    @switch ($index) {
+      @case (0) {
+        <p>This is a "Growth <strong>{{title[$index]}}</strong>"  analysis. You are looking for ways to provide more value to people </p>
+      }
+      @case (1) {
+        <p>This is a "Root Cause <strong>{{title[$index]}}</strong> " analysis. You need to identify where the leak is in your sales </p>
+      }
+      @case (2) {
+        <p>This is a "Root Cause <strong>{{title[$index]}}</strong>" analysis. You need to identify where the leak is in your sales </p>
+      }
+      @case (3) {
+        <p>This is a "Growth <strong>{{title[$index]}}</strong>" analysis. You are looking for ways to provide more value to people </p>
+      }
+      @case (4) {
+        <p>This is a "Growth <strong>{{title[$index]}}</strong>" analysis. You are looking for ways to provide more value to people </p>
+      }
+      @case (5) {
+        <p>This is a "Root Cause <strong>{{title[$index]}}</strong>" analysis. You need to identify where the leak is in your sales </p>
+      }
+      @case (6) {
+        <p>This is a "Root Cause <strong>{{title[$index]}}</strong>" analysis. You need to identify where the leak is in your sales </p>
+      }
+      @case (7) {
+        <p>This is a "Growth <strong>{{title[$index]}}</strong>" analysis. You are looking for ways to provide more value to people </p>
+      }
+    }
+    @switch ($index) {
+      @case (0) {
+          <div class="d-flex justify-content-between">
+              <div class="line-parent">
+              <div id="jan" class="line-se"></div>
+              </div>
+              <div><i class="bi bi-graph-up-arrow text-g"></i></div>
+          </div>
+      }
+      @case (1) {
+          <div class="d-flex justify-content-between">
+              <div class="line-parent ">
+              <div id="jan" class="line-ge"></div>
+              </div>
+              <i class="bi bi-graph-down-arrow text-s"></i>
+          </div>
+      }
+      @case (2) {
+          <div class="d-flex justify-content-between">
+              <div class="line-parent ">
+              <div id="jan" class="line-ge"></div>
+              </div>
+              <i class="bi bi-graph-down-arrow text-s"></i>
+          </div>
+      }
+      @case (3) {
+          <div class="d-flex justify-content-between">
+              <div class="line-parent ">
+              <div id="jan" class="line-se"></div>
+              </div>
+              <i class="bi bi-graph-up-arrow text-g"></i>
+          </div>
+      }
+      @case (4) {
+          <div class="d-flex justify-content-between">
+              <div class="line-parent ">
+              <div id="jan" class="line-se"></div>
+              </div>
+              <i class="bi bi-graph-up-arrow text-g"></i>
+          </div>
+      }
+      @case (5) {
+          <div class="d-flex justify-content-between">
+              <div class="line-parent ">
+              <div id="jan" class="line-ge"></div>
+              </div>
+              <i class="bi bi-graph-down-arrow text-s"></i>
+          </div>
+      }
+      @case (6) {
+          <div class="d-flex justify-content-between">
+              <div class="line-parent ">
+              <div id="jan" class="line-ge"></div>
+              </div>
+              <i class="bi bi-graph-down-arrow text-s"></i>
+          </div>
+      }
+      @case (7) {
+          <div class="d-flex justify-content-between">
+              <div class="line-parent ">
+              <div id="jan" class="line-se"></div>
+              </div>
+              <i class="bi bi-graph-up-arrow text-g"></i>
+          </div>
+      }
+
+    }
+  </div>
+  </div>
+</div>
+}
+  </div>
+</div>

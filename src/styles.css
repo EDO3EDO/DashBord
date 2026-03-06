@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  background-image: url(../public/body-bg.jpg);
+}
+
+canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+.chart-container {
+  position: relative;
+  height: 40vh;
+  width: 100%;
+  min-height: 300px;
+  margin: 0 auto;
+}
+
+
+
+
+.cart-bluer{
+  background-color: rgb(172, 183, 225, 0.2);
+  transition: transform 0.3s ease;
+}
+
+
+.text-n{
+  color: rgb(172, 183, 225, 1);
+}
+
+.cart-bluer:hover{
+  background-color: lightcyan;
+  transform: translateY(-5px);
+}
+
+
+
+.cart{
+  background-color:  rgb(172, 183, 225, 0.2);
+  padding: 20px;
+  border-radius: 8px;
+  color:lightcyan;
+}
+.cart-product{
+  background-color:  rgb(172, 183, 225, 0.2);
+  border-radius: 8px;
+  color:lightcyan;
+}
+
+
+.text-g{
+    color: #00D100;
+}
+
+.cart-2 {
+  background-color:  rgb(172, 183, 225, 0.2);
+  border-radius: 12px;
+  color: lightcyan;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.cart-2:hover {
+  transform: translateY(-5px);
+  background-color: #081136;
+}
+
+.w-custom{
+  width: 49.6%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,50 @@
+
+
+
+
+<button (click)="getslide()" id="slide" class=" btn my-2 ms-2">
+  <i class=" bi bi-list custom">
+    </i>
+    </button>
+    <!-- start header -->
+
+
+    <div class="row">
+    <div class="col-12">
+      <app-chart1></app-chart1>
+      </div>
+  </div>
+
+
+<!-- end header -->
+    <div id="slide_hidden" class="slide-hidden">
+    <div class="d-flex justify-content-start">
+      <i (click)="getback()" id="slide-back" class=" bi bi-list custom">
+      </i>
+    </div>
+            <div class="w-100">
+      <ul class="mt-5 " >
+      <div (click)="getback()" routerLink="Analysis" class="d-flex  justify-content-between margin-custom pointe ">
+        <li class="slide-li"><a>Analysis</a></li>
+        <i class="bi bi-house-door pointe"></i>
+      </div>
+      <hr>
+      <div (click)="getback()" routerLink="Product" class="d-flex justify-content-between pointe margin-custom">
+        <li class="slide-li"><a>Product</a></li>
+        <i class="bi bi-clipboard-data-fill  pointe"></i>
+      </div>
+      <hr>
+      <div (click)="getback()" routerLink="Ads" class="d-flex justify-content-between pointe margin-custom ">
+        <li class="slide-li"><a>Ads</a></li>
+        <i class="bi bi-aspect-ratio-fill"></i>
+      </div>
+      <hr>
+      <div (click)="getback()" class="Bott" >
+        <a href="#">LogOut</a>
+        <i class="bi bi-box-arrow-right ms-1 pointe"></i>
+      </div>
+    </ul>
+    </div>
+    </div>
+
+    <router-outlet></router-outlet>

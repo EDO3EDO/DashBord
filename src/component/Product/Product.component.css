@@ -1,0 +1,50 @@
+.custom-h-g{
+  line-height: 0%;
+  color: #00D100;
+}
+.custom-h-r{
+  line-height: 0%;
+  color: #D10000;
+}
+
+.text-g{
+    color: #00D100;
+}
+.text-s{
+    color: #D10000;
+}
+
+
+
+
+.font-md{
+  font-size: 18px;
+}
+.font-icon{
+  font-size: 25px;
+}
+
+.line-parent{
+  margin-top: 9px !important;
+  height: 5px;
+  width: 100px;
+  background-color: rgb(255, 255, 255 , 0.1);
+  opacity: 100% ;
+  border-radius: 3px;
+}
+
+
+.line-se{
+
+    height: 5px;
+    width:75%;
+    background-image: linear-gradient(90deg, #a8e063, #24fe41);
+    border-radius: 3px;
+}
+.line-ge{
+
+    height: 5px;
+    width:75%;
+    background-image: linear-gradient(90deg, #ff6a00, #ee0979);
+    border-radius: 3px;
+}

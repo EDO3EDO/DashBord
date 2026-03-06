@@ -1,0 +1,21 @@
+.scond-chart{
+  width: 250px !important;
+  height: 250px !important;
+
+}
+
+
+
+.mobile-color{
+  color: #3b82f6;
+}
+.tablet-color{
+  color: #ef4444;
+}
+.desktop-color{
+  color: #22c55e;
+}
+
+.margin-s{
+  margin-left: -16px;
+}
