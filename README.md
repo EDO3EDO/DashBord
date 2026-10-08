@@ -1,59 +1,86 @@
-# Dash
+# 📊 Analytics Dashboard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
+> An interactive analytics dashboard application featuring data visualizations, modern UI aesthetics, and custom charts.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🔗 Quick Links
 
-```bash
-ng serve
-```
+- **Live Demo:** [View Live Demo](https://edo3edo.github.io/DashBord/Analysis)
+- **Status:** Finished / Live
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+## 🎥 Project Demo
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+![Dashboard Demo](./public/demo.gif)
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠️ Tech Stack
 
-```bash
-ng generate --help
-```
+- **Frontend:** Angular, Standalone Components, TypeScript
+- **Styling & UI:** Bootstrap 5, Font Awesome, Custom CSS (Glassmorphism & Bento Grid design, Media Queries)
+- **Data Visualization:** Chart.js
+- **Deployment:** GitHub Pages
 
-## Building
+---
 
-To build the project run:
+## ✨ Key Features
 
-```bash
-ng build
-```
+- **Visual Charts:** Integrated Chart.js to display multiple custom charts and data visualizations.
+- **Modern UI Design:** Styled with Glassmorphism effects and Bento Grid layouts for a sleek, contemporary dashboard look.
+- **Fully Responsive:** Optimized via CSS media queries to ensure smooth scaling and usability across desktop and mobile devices.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 💡 Technical Challenges & Solutions
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+1. **Challenge 1 (Building a Dashboard & Responsive Charts):**
+   - _What happened:_ This was my first time building a complete dashboard using Chart.js. I faced a real challenge with responsive design (Media Queries), especially making sure the charts looked great and resized correctly on desktop screens versus mobile phones.
+   - _How I fixed it:_ Learned how to properly structure dashboard layouts, tweak CSS media queries, and configure Chart.js responsiveness so that graphs scale smoothly across all screen sizes without breaking the UI.
 
-```bash
-ng test
-```
+---
+# 📊 Analytics Dashboard
 
-## Running end-to-end tests
+> An interactive analytics dashboard application featuring data visualizations, modern UI aesthetics, and custom charts.
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
+## 🔗 Quick Links
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- **Live Demo:** [View Live Demo](https://edo3edo.github.io/DashBord/Analysis)
+- **Status:** Finished / Live
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🎥 Project Demo
+
+![Dashboard Demo](./public/demo.gif)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Angular, Standalone Components, TypeScript
+- **Styling & UI:** Bootstrap 5, Font Awesome, Custom CSS (Glassmorphism & Bento Grid design, Media Queries)
+- **Data Visualization:** Chart.js
+- **Deployment:** GitHub Pages
+
+---
+
+## ✨ Key Features
+
+- **Visual Charts:** Integrated Chart.js to display multiple custom charts and data visualizations.
+- **Modern UI Design:** Styled with Glassmorphism effects and Bento Grid layouts for a sleek, contemporary dashboard look.
+- **Fully Responsive:** Optimized via CSS media queries to ensure smooth scaling and usability across desktop and mobile devices.
+
+---
+
+## 💡 Technical Challenges & Solutions
+
+1. **Challenge 1 (Building a Dashboard & Responsive Charts):**
+   - _What happened:_ This was my first time building a complete dashboard using Chart.js. I faced a real challenge with responsive design (Media Queries), especially making sure the charts looked great and resized correctly on desktop screens versus mobile phones.
+   - _How I fixed it:_ Learned how to properly structure dashboard layouts, tweak CSS media queries, and configure Chart.js responsiveness so that graphs scale smoothly across all screen sizes without breaking the UI.
+
+---
