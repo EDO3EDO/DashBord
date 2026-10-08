@@ -11,11 +11,7 @@
 
 ---
 
-## 🎥 Project Demo
 
-![Dashboard Demo](./public/demo.gif)
-
----
 
 ## 🛠️ Tech Stack
 
